@@ -7,7 +7,7 @@ public class TestGit2 {
 
 		String sleepy = "yes";
 		
-		if(sleepy.equals("yes")) {
+		if(sleepy.equals("yes") || sleepy.equals("y") || sleepy.equals("Y")) {
 			System.out.println("sleep well...");
 		}else
 			System.out.println("Do work...");
